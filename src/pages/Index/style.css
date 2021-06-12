@@ -1,0 +1,29 @@
+.index-layout {
+    height: 100%;
+    background-color: transparent;
+    overflow: auto;
+}
+
+.frosted-glass {
+    background: rgba(0, 0, 0, 0.01);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.index-header {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.index-content {
+    min-height: 20em;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.index-footer {
+    text-align: center;
+}

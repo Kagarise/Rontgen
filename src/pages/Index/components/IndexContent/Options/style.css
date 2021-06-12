@@ -1,0 +1,17 @@
+.index-options {
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em 0 1em;
+}
+
+.index-options > .option-number {
+    width: 5em;
+}
+
+.index-options > .option-select {
+    width: 5em;
+}
+
+.index-options > .option-password {
+    width: 10em;
+}

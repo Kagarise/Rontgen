@@ -1,0 +1,16 @@
+.site-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-info > .site-logo {
+    width: 64px;
+}
+
+.site-info > .site-title {
+    color: rgb(255, 173, 51);
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 16px;
+}
